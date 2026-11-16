@@ -1,0 +1,11 @@
+CoffeeShopID,CoffeeShopName,Area,Latitude,Longitude,LocationType
+COF001,Bean Street - Banjara Hills,Banjara Hills,17.4156,78.4347,Existing
+COF002,Daily Grind - Jubilee Hills,Jubilee Hills,17.431,78.4075,Existing
+COF003,Brew Corner - Madhapur,Madhapur,17.4483,78.3915,Existing
+COF004,Metro Mug - HITEC City,HITEC City,17.4474,78.3762,Existing
+COF005,Roast & Route - Kondapur,Kondapur,17.4602,78.3677,Existing
+COF006,Grounded Cafe - Gachibowli,Gachibowli,17.4401,78.3489,Existing
+COF007,The Coffee Stop - Begumpet,Begumpet,17.4448,78.467,Existing
+COF008,Cup & Co. - Ameerpet,Ameerpet,17.4375,78.4483,Existing
+COF009,Commuter Coffee - Financial District,Financial District,17.4218,78.3374,Proposed
+COF010,Manikonda Brew Lab,Manikonda,17.4052,78.3858,Proposed
