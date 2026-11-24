@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: stg_gps_pings
+    description: Cleaned GPS pings with Snowflake GEOGRAPHY points.
+    columns:
+      - name: device_id
+        tests: [not_null]
+      - name: event_ts
+        tests: [not_null]
+      - name: location_geog
+        tests: [not_null]
+
+  - name: stg_coffee_shop_locations
+    description: Cleaned coffee-shop locations with Snowflake GEOGRAPHY points.
+    columns:
+      - name: coffee_shop_id
+        tests: [not_null, unique]
+      - name: location_geog
+        tests: [not_null]
+
+  - name: fct_hourly_store_footfall
+    description: Hourly GPS ping and distinct-device counts within 500 metres of each store point.
+    columns:
+      - name: coffee_shop_id
+        tests: [not_null]
+      - name: hour_start
+        tests: [not_null]
+      - name: total_pings
+        tests: [not_null]
+      - name: unique_devices
+        tests: [not_null]
+      - name: avg_distance_meters
+        tests: [not_null]
